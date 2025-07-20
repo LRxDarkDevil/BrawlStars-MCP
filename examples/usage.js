@@ -52,7 +52,7 @@
   "mcpServers": {
     "brawlstars": {
       "command": "npx",
-      "args": ["brawlstars-mcp", "--token", "YOUR_API_TOKEN_HERE"],
+      "args": ["brawl-stars-mcp", "--token", "YOUR_API_TOKEN_HERE"],
       "env": {}
     }
   }

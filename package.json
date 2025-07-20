@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "type": "module",
   "bin": {
-    "brawlstars-mcp": "dist/index.js"
+    "brawl-stars-mcp": "dist/index.js"
   },
   "scripts": {
     "build": "tsc",
@@ -17,12 +17,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/LRxDarkDevil/BrawlStars-MCP.git"
+    "url": "https://github.com/LRxDarkDevil/Brawl-Stars-MCP.git"
   },
   "bugs": {
-    "url": "https://github.com/LRxDarkDevil/BrawlStars-MCP/issues"
+    "url": "https://github.com/LRxDarkDevil/Brawl-Stars-MCP/issues"
   },
-  "homepage": "https://github.com/LRxDarkDevil/BrawlStars-MCP#readme",
+  "homepage": "https://github.com/LRxDarkDevil/Brawl-Stars-MCP#readme",
   "author": "Taha Adnan <tahaadnanawan@gmail.com>",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^0.4.0",

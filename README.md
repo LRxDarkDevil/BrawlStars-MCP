@@ -27,15 +27,15 @@ This is a **Model Context Protocol (MCP) server** that allows AI assistants and 
 ### As an NPM Package (Recommended)
 
 ```bash
-npm install -g brawlstars-mcp
+npm install -g brawl-stars-mcp
 ```
 
 ### From Source
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/LRxDarkDevil/BrawlStars-MCP.git
-   cd brawlstars-mcp
+   git clone https://github.com/LRxDarkDevil/Brawl-Stars-MCP.git
+   cd Brawl-Stars-MCP
    ```
 
 2. Install dependencies:
@@ -71,7 +71,7 @@ This MCP server works with any AI assistant that supports the Model Context Prot
 
 2. **Install the MCP server**:
    ```bash
-   npm install -g brawlstars-mcp
+   npm install -g brawl-stars-mcp
    ```
 
 3. **Configure Claude Desktop**:
@@ -81,7 +81,7 @@ This MCP server works with any AI assistant that supports the Model Context Prot
      ```
      Name: Brawl Stars
      Command: npx
-     Arguments: brawlstars-mcp --token YOUR_API_TOKEN_HERE
+     Arguments: brawl-stars-mcp --token YOUR_API_TOKEN_HERE
      ```
 
 4. **Restart Claude Desktop** and start asking about Brawl Stars!
@@ -95,7 +95,7 @@ Add this configuration to your MCP config file:
   "mcpServers": {
     "brawlstars": {
       "command": "npx",
-      "args": ["brawlstars-mcp", "--token", "YOUR_API_TOKEN_HERE"]
+      "args": ["brawl-stars-mcp", "--token", "YOUR_API_TOKEN_HERE"]
     }
   }
 }

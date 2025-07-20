@@ -21,13 +21,13 @@ for (let i = 0; i < args.length; i++) {
 
 if (!apiToken) {
   console.error("Error: API token is required. Use --token or -t to provide your Brawl Stars API token.");
-  console.error("Example: brawlstars-mcp --token YOUR_API_TOKEN");
+      console.error("Example: brawl-stars-mcp --token YOUR_API_TOKEN");
   process.exit(1);
 }
 
 const server = new Server(
   {
-    name: "brawlstars-mcp",
+    name: "brawl-stars-mcp",
     version: "1.0.0",
   }
 );
