@@ -34,7 +34,7 @@ npm install -g brawlstars-mcp
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/brawlstars-mcp.git
+   git clone https://github.com/LRxDarkDevil/BrawlStars-MCP.git
    cd brawlstars-mcp
    ```
 

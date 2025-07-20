@@ -15,6 +15,15 @@
   },
   "keywords": ["mcp", "brawlstars", "api", "gaming"],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LRxDarkDevil/BrawlStars-MCP.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LRxDarkDevil/BrawlStars-MCP/issues"
+  },
+  "homepage": "https://github.com/LRxDarkDevil/BrawlStars-MCP#readme",
+  "author": "Taha Adnan <tahaadnanawan@gmail.com>",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^0.4.0",
     "axios": "^1.6.0",
