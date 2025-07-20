@@ -1,0 +1,32 @@
+# This workflow will build and test the package on pull requests and pushes
+name: Test and Build
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          
+      - name: Install dependencies
+        run: npm ci
+        
+      - name: Build project
+        run: npm run build
+        
+      - name: Verify build output
+        run: |
+          ls -la dist/
+          echo "✅ Build completed successfully"
+          echo "📦 Package is ready for publishing" 
