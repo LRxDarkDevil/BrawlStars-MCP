@@ -197,12 +197,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Model Context Protocol](https://modelcontextprotocol.io/) for the MCP standard
 - The Brawl Stars community for inspiration
 
-## 📞 Support
-
-- **Issues**: [GitHub Issues](https://github.com/yourusername/brawlstars-mcp/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/brawlstars-mcp/discussions)
-- **Documentation**: [Brawl Stars API Docs](https://developer.brawlstars.com/)
-
----
-
 **Note**: This tool is designed for AI assistants and LLMs. 
